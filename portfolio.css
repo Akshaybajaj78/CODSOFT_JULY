@@ -1,0 +1,147 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+/* About Section */
+#about {
+    background: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#about img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1rem;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Skills Section */
+#skills {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#skills ul {
+    list-style: none;
+}
+
+#skills li {
+    display: inline-block;
+    background: #ddd;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+#projects {
+    background: #fff;
+    padding: 2rem 0;
+}
+
+.project {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.project img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+.project h3 {
+    margin: 1rem 0 0.5rem;
+}
+
+.project p {
+    color: #666;
+}
+
+/* Resume Section */
+#resume {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#resume a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#resume a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+#contact {
+    background: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    display: inline;
+    margin: 0 0.5rem;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
